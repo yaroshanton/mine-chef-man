@@ -149,7 +149,8 @@ sup {
    * Remove the border on images inside links in IE 10.
    */
 img {
-  border-style: none; }
+  border-style: none;
+  width: 100%; }
 
 /* Forms
      ========================================================================== */
@@ -360,7 +361,9 @@ h1 {
   font-weight: unset; }
 
 h2 {
-  margin: 0; }
+  margin: 0;
+  font-weight: 300;
+  font-size: 25px; }
 
 .container {
   width: 246px;
@@ -393,3 +396,98 @@ h2 {
     width: 176px;
     margin: 0 auto;
     display: flex; }
+
+.phone {
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  background-color: #f8f8f8; }
+  .phone__discription h2 {
+    line-height: 35px;
+    color: #2d2d2d;
+    padding: 40px 0 20px; }
+  .phone__discription p {
+    color: #2d2d2d;
+    line-height: 22px;
+    margin-bottom: 18px; }
+
+.video {
+  margin-bottom: 40px; }
+  .video h2 {
+    color: #2d2d2d;
+    text-align: center;
+    width: 246px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    line-height: 30px; }
+  .video iframe {
+    width: 294px;
+    height: auto;
+    margin: 0 auto;
+    display: flex; }
+
+.service {
+  margin-bottom: 40px; }
+  .service__item img {
+    width: 50px;
+    margin-bottom: 20px; }
+  .service__item h2 {
+    color: #2d2d2d;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 20px; }
+  .service__item p {
+    color: #2d2d2d;
+    margin-bottom: 20px; }
+
+.smile img {
+  display: block; }
+
+.smile__discription {
+  padding-bottom: 22px;
+  background-color: #fdb913; }
+  .smile__discription h2 {
+    padding: 40px 0 20px; }
+  .smile__discription p {
+    padding-bottom: 18px; }
+
+.reviews {
+  margin-bottom: 60px; }
+  .reviews h2 {
+    color: #2d2d2d;
+    text-align: center;
+    padding: 40px 0 20px;
+    line-height: 30px; }
+  .reviews__item-text {
+    font-size: 25px;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 25px; }
+  .reviews .swiper-slide {
+    width: 320px !important;
+    padding: 0 37px; }
+    .reviews .swiper-slide h3 {
+      padding-top: 25px;
+      color: #2d2d2d;
+      font-size: 25px;
+      font-size: 14px; }
+    .reviews .swiper-slide p {
+      color: #2d2d2d;
+      line-height: 25px; }
+
+.swiper-button-next:after {
+  background-image: url(../../img/arrow-right.svg) !important;
+  background-size: 10px 20px;
+  display: inline-block;
+  width: 10px;
+  height: 20px;
+  background-repeat: no-repeat;
+  content: "" !important; }
+
+.swiper-button-prev::after {
+  background-image: url(../../img/arrow-left.svg) !important;
+  background-size: 10px 20px;
+  display: inline-block;
+  width: 10px;
+  height: 20px;
+  background-repeat: no-repeat;
+  content: "" !important; }

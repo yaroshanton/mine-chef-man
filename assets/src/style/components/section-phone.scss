@@ -1,0 +1,18 @@
+.phone {
+ padding-bottom: 40px;
+ margin-bottom: 40px;
+ background-color: #f8f8f8;
+ &__discription {
+  h2 {
+   line-height: 35px;
+   color: #2d2d2d;
+   padding: 40px 0 20px;
+  }
+
+  p {
+   color: #2d2d2d;
+   line-height: 22px;
+   margin-bottom: 18px;
+  }
+ }
+}

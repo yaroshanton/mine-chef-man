@@ -1,0 +1,21 @@
+.service {
+ margin-bottom: 40px;
+ &__item {
+  img {
+   width: 50px;
+   margin-bottom: 20px;
+  }
+
+  h2 {
+   color: #2d2d2d;
+   font-size: 20px;
+   line-height: 30px;
+   margin-bottom: 20px;
+  }
+
+  p {
+   color: #2d2d2d;
+   margin-bottom: 20px;
+  }
+ }
+}

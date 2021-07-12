@@ -1,0 +1,18 @@
+.smile {
+ img {
+  display: block;
+ }
+
+ &__discription {
+  padding-bottom: 22px;
+  background-color: #fdb913;
+
+  h2 {
+   padding: 40px 0 20px;
+  }
+
+  p {
+   padding-bottom: 18px;
+  }
+ }
+}
