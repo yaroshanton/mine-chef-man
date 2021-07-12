@@ -15,7 +15,7 @@
  }
 
  .swiper-slide {
-  width: 320px !important;
+  width: 100% !important;
   padding: 0 37px;
   h3 {
    padding-top: 25px;
@@ -48,4 +48,14 @@
  height: 20px;
  background-repeat: no-repeat;
  content: "" !important;
+}
+
+.swiper-button-prev,
+.swiper-container-rtl .swiper-button-next {
+ left: 0px !important;
+}
+
+.swiper-button-next,
+.swiper-container-rtl .swiper-button-prev {
+ right: 0px !important;
 }

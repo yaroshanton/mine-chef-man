@@ -1,0 +1,32 @@
+.company {
+ margin-bottom: 60px;
+ img {
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 35px;
+
+  &:nth-child(1n) {
+   width: 160px;
+  }
+
+  &:nth-child(2n) {
+   width: 83px;
+  }
+
+  &:nth-child(3n) {
+   width: 160px;
+  }
+
+  &:nth-child(4n) {
+   width: 94px;
+  }
+
+  &:nth-child(5n) {
+   width: 141px;
+  }
+
+  &:nth-child(6n) {
+   width: 108px;
+  }
+ }
+}

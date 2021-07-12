@@ -10,7 +10,7 @@
   font-style: normal;
   font-weight: 300; }
 
-.header__discription button {
+.header__discription button, .footer form button {
   background-color: #fdb913;
   padding: 13px 20px;
   border: none;
@@ -463,7 +463,7 @@ h2 {
     font-size: 14px;
     line-height: 25px; }
   .reviews .swiper-slide {
-    width: 320px !important;
+    width: 100% !important;
     padding: 0 37px; }
     .reviews .swiper-slide h3 {
       padding-top: 25px;
@@ -491,3 +491,121 @@ h2 {
   height: 20px;
   background-repeat: no-repeat;
   content: "" !important; }
+
+.swiper-button-prev,
+.swiper-container-rtl .swiper-button-next {
+  left: 0px !important; }
+
+.swiper-button-next,
+.swiper-container-rtl .swiper-button-prev {
+  right: 0px !important; }
+
+.company {
+  margin-bottom: 60px; }
+  .company img {
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 35px; }
+    .company img:nth-child(1n) {
+      width: 160px; }
+    .company img:nth-child(2n) {
+      width: 83px; }
+    .company img:nth-child(3n) {
+      width: 160px; }
+    .company img:nth-child(4n) {
+      width: 94px; }
+    .company img:nth-child(5n) {
+      width: 141px; }
+    .company img:nth-child(6n) {
+      width: 108px; }
+
+.footer {
+  background-color: #446a82; }
+  .footer h2 {
+    width: 246px;
+    text-align: center;
+    line-height: 35px;
+    padding: 40px 0 35px;
+    margin: 0 auto; }
+  .footer form {
+    width: 294px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto; }
+    .footer form label {
+      padding-left: 5px;
+      font-size: 16px;
+      line-height: 16px;
+      text-transform: uppercase;
+      margin-bottom: 10px; }
+    .footer form input {
+      padding: 13px;
+      height: 57px;
+      border-radius: 5px;
+      margin-bottom: 54px;
+      border: none;
+      font-weight: 300;
+      color: #446a82; }
+    .footer form textarea {
+      padding: 13px;
+      height: 114px;
+      font-weight: 300;
+      font-size: 16px;
+      border-radius: 5px;
+      color: #446a82;
+      margin-bottom: 20px; }
+    .footer form .form__checkbox {
+      display: flex;
+      align-items: center;
+      margin-bottom: 25px; }
+    .footer form .checkbox {
+      margin-bottom: unset; }
+    .footer form .checkbox__label {
+      margin-bottom: unset;
+      text-transform: inherit;
+      font-size: 20px; }
+    .footer form input[type="checkbox"] {
+      position: relative;
+      width: 1.5em;
+      height: 1.5em;
+      color: #000;
+      background-color: #fff;
+      border: 1px solid #fff;
+      border-radius: 5px;
+      -webkit-appearance: none;
+         -moz-appearance: none;
+              appearance: none;
+      outline: 0;
+      cursor: pointer;
+      margin-right: 20px; }
+      .footer form input[type="checkbox"]::before {
+        position: absolute;
+        content: "";
+        display: block;
+        top: 4px;
+        left: 9px;
+        width: 8px;
+        filter: #0246ec;
+        height: 14px;
+        border-style: solid;
+        border-color: #fdb913;
+        border-width: 0 2px 2px 0;
+        transform: rotate(45deg);
+        opacity: 0; }
+      .footer form input[type="checkbox"]:checked {
+        color: #000;
+        background: white; }
+        .footer form input[type="checkbox"]:checked::before {
+          opacity: 1; }
+    .footer form button {
+      padding: 13px 50px;
+      letter-spacing: 0.1em;
+      max-width: 160px;
+      display: flex;
+      margin: 0 auto;
+      margin-bottom: 40px; }
+  .footer__all-rights {
+    text-align: center;
+    font-size: 16px;
+    padding-bottom: 40px;
+    line-height: 25px; }
