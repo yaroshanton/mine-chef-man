@@ -1,0 +1,25 @@
+// font
+%museo-sans500 {
+ font-family: "MuseoSansCyrl500";
+ font-weight: 500;
+}
+
+%museo-sans700 {
+ font-family: "MuseoSansCyrl700";
+ font-weight: 700;
+}
+
+//button
+
+%button {
+ background-color: #fdb913;
+ padding: 13px 20px;
+ border: none;
+ border-radius: 50px;
+ font-weight: 700;
+ color: #fff;
+ line-height: 14px;
+ font-size: 12px;
+ letter-spacing: 0.1em;
+ text-transform: uppercase;
+}
