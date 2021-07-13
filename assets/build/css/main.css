@@ -370,7 +370,7 @@ h2 {
       width: 1110px; } }
 
 .header {
-  background: linear-gradient(90deg, rgba(68, 106, 130, 0.85) 100%, rgba(68, 106, 130, 0.85) 100%), url(img/bg-header.png) no-repeat;
+  background: linear-gradient(90deg, rgba(68, 106, 130, 0.85) 100%, rgba(68, 106, 130, 0.85) 100%), url(../img/bg-header.png) no-repeat;
   background-size: cover;
   background-position: center center; }
   @media (min-width: 1200px) {
@@ -588,7 +588,7 @@ h2 {
       line-height: 25px; }
 
 .swiper-button-next:after {
-  background-image: url(../../img/arrow-right.svg) !important;
+  background-image: url(../img/arrow-right.svg) !important;
   background-size: 10px 20px;
   display: inline-block;
   width: 10px;
@@ -597,7 +597,7 @@ h2 {
   content: "" !important; }
 
 .swiper-button-prev::after {
-  background-image: url(../../img/arrow-left.svg) !important;
+  background-image: url(../img/arrow-left.svg) !important;
   background-size: 10px 20px;
   display: inline-block;
   width: 10px;
