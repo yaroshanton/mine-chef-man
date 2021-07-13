@@ -1,9 +1,20 @@
 .company {
  margin-bottom: 60px;
+
+ @media (min-width: 1200px) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
  img {
   display: flex;
   margin: 0 auto;
   margin-bottom: 35px;
+  height: 100%;
+
+  @media (min-width: 1200px) {
+   margin: unset;
+  }
 
   &:nth-child(1n) {
    width: 160px;

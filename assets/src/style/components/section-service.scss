@@ -1,6 +1,17 @@
 .service {
  margin-bottom: 40px;
+
+ @media (min-width: 1200px) {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 65px;
+ }
+
  &__item {
+  @media (min-width: 1200px) {
+   width: 350px;
+  }
+
   img {
    width: 50px;
    margin-bottom: 20px;

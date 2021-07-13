@@ -13,12 +13,9 @@ body {
 html {
  box-sizing: border-box;
  min-width: 320px;
- @media (min-width: 768px) {
-  min-width: 768px;
- }
 
- @media (min-width: 1280px) {
-  min-width: 1280px;
+ @media (min-width: 1200px) {
+  min-width: 1110px;
  }
 }
 

@@ -8,36 +8,80 @@
  background-size: cover;
  background-position: center center;
 
+ @media (min-width: 1200px) {
+  background-attachment: fixed;
+ }
+
+ &-wrapper {
+  display: flex;
+  align-items: flex-end;
+ }
+
  &__discription {
   width: 294px;
   margin: 0 auto;
+
+  @media (min-width: 1200px) {
+   width: 540px;
+  }
 
   h1 {
    font-size: 32px;
    line-height: 40px;
    margin-bottom: 20px;
+
+   @media (min-width: 1200px) {
+    font-size: 45px;
+    line-height: 55px;
+   }
   }
 
   p {
    font-size: 16px;
    line-height: 24px;
    margin-bottom: 25px;
+
+   @media (min-width: 1200px) {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 30px;
+   }
   }
 
   button {
    @extend %button;
    margin-bottom: 22px;
+
+   @media (min-width: 1200px) {
+    padding: 18px 30px;
+    font-size: 14px;
+    margin-bottom: 71px;
+   }
+
+   a {
+    color: #fff;
+    text-decoration: none;
+   }
   }
  }
 
  &__logo {
   width: 50px;
   margin: 25px 0;
+
+  @media (min-width: 1200px) {
+   width: 85px;
+   margin: 52px 0 42px;
+  }
  }
 
  &__human {
   width: 176px;
   margin: 0 auto;
   display: flex;
+
+  @media (min-width: 1200px) {
+   width: 400px;
+  }
  }
 }

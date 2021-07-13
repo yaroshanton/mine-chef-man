@@ -1,18 +1,51 @@
 .smile {
+ @media (min-width: 1200px) {
+  display: flex;
+ }
+
  img {
   display: block;
+
+  @media (min-width: 1200px) {
+   width: 50%;
+   height: 100%;
+  }
  }
 
  &__discription {
   padding-bottom: 22px;
   background-color: #fdb913;
 
+  @media (min-width: 1200px) {
+   padding-left: 100px;
+   width: 100%;
+  }
+
   h2 {
    padding: 40px 0 20px;
+   width: 246px;
+   margin: 0 auto;
+
+   @media (min-width: 1200px) {
+    padding: 40px 0 25px;
+    line-height: 36px;
+    font-size: 35px;
+    width: 450px;
+    margin: unset;
+   }
   }
 
   p {
    padding-bottom: 18px;
+   width: 246px;
+   margin: 0 auto;
+
+   @media (min-width: 1200px) {
+    font-size: 16px;
+    // line-height: 25px;
+    width: 445px;
+    margin: unset;
+   }
   }
  }
 }

@@ -14,9 +14,24 @@
   line-height: 25px;
  }
 
+ .swiper-wrapper {
+  @media (min-width: 1200px) {
+   width: 91% !important;
+   margin: 0 auto;
+  }
+ }
+
  .swiper-slide {
   width: 100% !important;
   padding: 0 37px;
+
+  @media (min-width: 1200px) {
+   width: 34% !important;
+
+   &:nth-child(3n) {
+    margin-right: 10%;
+   }
+  }
   h3 {
    padding-top: 25px;
    color: #2d2d2d;
@@ -53,9 +68,17 @@
 .swiper-button-prev,
 .swiper-container-rtl .swiper-button-next {
  left: 0px !important;
+
+ @media (min-width: 1200px) {
+  left: 8px !important;
+ }
 }
 
 .swiper-button-next,
 .swiper-container-rtl .swiper-button-prev {
  right: 0px !important;
+
+ @media (min-width: 1200px) {
+  right: 8px !important;
+ }
 }

@@ -6,19 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <link rel="stylesheet" href="css/main.css">
-  <!-- <link rel="stylesheet" href="css/main.min.css"> -->
-  <!-- <link rel="stylesheet" href="css/main.min.css.map"> -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,300&display=swap"
     rel="stylesheet">
-
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-
-  <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"
-    integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M" crossorigin="anonymous"> -->
-
   <title>mine-chef-man</title>
 </head>
 
@@ -28,16 +21,21 @@
 
   <header>
     <div class="header">
-      <div class="header__discription">
-        <img class="header__logo" src="img/logo.png" alt="Logo">
-        <h1>Lorem ipsum dolor sit consectetur adipiscing elit nullam sagittis.</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis risus et diam euismod vestibulum.
-          Fusce suscipit leo ornare nulla ullamcorper, sed pellentesque libero ornare. Praesent egestas rhoncus
-          sagittis.
-        </p>
-        <button type="button">Book a meeting</button>
+      <div class="container">
+        <div class="header-wrapper">
+          <div class="header__discription">
+            <img class="header__logo" src="img/logo.png" alt="Logo">
+            <h1>Lorem ipsum dolor sit consectetur adipiscing elit nullam sagittis.</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis risus et diam euismod
+              vestibulum.
+              Fusce suscipit leo ornare nulla ullamcorper, sed pellentesque libero ornare. Praesent egestas rhoncus
+              sagittis. schwifty
+            </p>
+            <button type="button"> <a href="#footer">Book a meeting</a></button>
+          </div>
+          <img class="header__human" src="img/header-man.png" alt="human">
+        </div>
       </div>
-      <img class="header__human" src="img/header-man.png" alt="human">
     </div>
   </header>
 
@@ -47,15 +45,18 @@
     <section>
       <div class="phone">
         <div class="container">
-          <div class="phone__discription">
-            <h2>Lorem ipsum dolor sit amet, consectetur elit eleifend mauris.</h2>
-            <p>Phasellus quis sapien ac ex eleifend viverra non vulputate mi. Praesent in sodales lacus, et vehicula ex.
-              Pellentesque elementum eu nisl non posuere. Sed lobortis purus non tempor dapibus.</p>
-            <p>Sed nec iaculis leo, in luctus ipsum. Sed eu neque consectetur, mollis neque vel, ultrices quam. Donec
-              ullamcorper consectetur lacinia. Praesent laoreet enim eget leo suscipit, at bibendum elit egestas. Cras
-              euismod congue nunc id convallis.</p>
+          <div class="phone-wrapper">
+            <div class="phone__discription">
+              <h2>Lorem ipsum dolor sit amet, consectetur elit eleifend mauris.</h2>
+              <p>Phasellus quis sapien ac ex eleifend viverra non vulputate mi. Praesent in sodales lacus, et vehicula
+                ex.
+                Pellentesque elementum eu nisl non posuere. Sed lobortis purus non tempor dapibus.</p>
+              <p>Sed nec iaculis leo, in luctus ipsum. Sed eu neque consectetur, mollis neque vel, ultrices quam. Donec
+                ullamcorper consectetur lacinia. Praesent laoreet enim eget leo suscipit, at bibendum elit egestas. Cras
+                euismod congue nunc id convallis.</p>
+            </div>
+            <img class="phone__img" src="img/section-phone.png" alt="phone-pay">
           </div>
-          <img class="phone__img" src="img/section-phone.png" alt="phone-pay">
         </div>
       </div>
     </section>
@@ -104,14 +105,12 @@
       <div class="smile">
         <img src="./img/section-smile.png" alt="smile-people">
         <div class="smile__discription">
-          <div class="container">
-            <h2>Lorem ipsum dolor sit amet, consectetur elit eleifend mauris.</h2>
-            <p>Phasellus quis sapien ac ex eleifend viverra non vulputate mi. Praesent in sodales lacus, et vehicula ex.
-              Pellentesque elementum eu nisl non posuere. Sed lobortis purus non tempor dapibus.</p>
-            <p>Sed nec iaculis leo, in luctus ipsum. Sed eu neque consectetur, mollis neque vel, ultrices quam. Donec
-              ullamcorper consectetur lacinia. Praesent laoreet enim eget leo suscipit, at bibendum elit egestas. Cras
-              euismod congue nunc id convallis. </p>
-          </div>
+          <h2>Lorem ipsum dolor sit amet, consectetur elit eleifend mauris.</h2>
+          <p>Phasellus quis sapien ac ex eleifend viverra non vulputate mi. Praesent in sodales lacus, et vehicula ex.
+            Pellentesque elementum eu nisl non posuere. Sed lobortis purus non tempor dapibus.</p>
+          <p>Sed nec iaculis leo, in luctus ipsum. Sed eu neque consectetur, mollis neque vel, ultrices quam. Donec
+            ullamcorper consectetur lacinia. Praesent laoreet enim eget leo suscipit, at bibendum elit egestas. Cras
+            euismod congue nunc id convallis. </p>
         </div>
       </div>
     </section>
@@ -119,28 +118,10 @@
     <!-- SECTION_REVIEWS -->
     <section>
       <div class="reviews">
-        <h2 class=" container">Lorem ipsum dolor
+        <h2 class="container">Lorem ipsum dolor
           sit amet</h2>
-        <div class="swiper-container mySwiper">
+        <div class="swiper-container mySwiper container">
           <div class="swiper-wrapper ">
-            <div class="swiper-slide  ">
-              <p class="reviews__item-text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id sagittis
-                urna, sit amet rhoncus
-                orci.
-                Maecenas in diam ac augue ultricies.“</p>
-              <h3>Alyssa Aitken</h3>
-              <p>Director Sales </p>
-              <p>Management One Hope Wine</p>
-            </div>
-            <div class="swiper-slide">
-              <p class="reviews__item-text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id sagittis
-                urna, sit amet rhoncus
-                orci.
-                Maecenas in diam ac augue ultricies.“</p>
-              <h3>Alyssa Aitken</h3>
-              <p>Director Sales </p>
-              <p>Management One Hope Wine</p>
-            </div>
             <div class="swiper-slide">
               <p class="reviews__item-text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id sagittis
                 urna, sit amet rhoncus
@@ -206,8 +187,8 @@
 
     <!-- SECTION-COMPANY -->
     <section>
-      <div class="company">
-        <div class="container">
+      <div class="container">
+        <div class="company">
           <img src="img/section-company1.png" alt="company-one">
           <img src="img/section-company2.png" alt="company-two">
           <img src="img/section-company3.png" alt="company-three">
@@ -222,7 +203,7 @@
 
   <!-- FOOTER -->
 
-  <footer>
+  <footer id="footer">
     <div class="footer">
       <h2>Vestibulum ornare nec enim at viverra
         integer non quam euismod.</h2>
@@ -244,7 +225,10 @@
           <button type="submit">submit</button>
         </div>
       </form>
-      <p class="footer__all-rights">© 2020 Salmiac | All Rights Reserved</p>
+      <div class="footer-discription">
+        <img class="header__logo footer-logo" src="img/logo.png" alt="Logo">
+        <p class="footer__all-rights">© 2020 Salmiac | All Rights Reserved</p>
+      </div>
     </div>
   </footer>
 
@@ -258,6 +242,25 @@
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
       },
+    });
+  </script>
+
+  <!-- SMOOTH SCROLL -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+
+      $("a").on('click', function (event) {
+        if (this.hash !== "") {
+          event.preventDefault();
+          var hash = this.hash;
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function () {
+            window.location.hash = hash;
+          });
+        }
+      });
     });
   </script>
 </body>

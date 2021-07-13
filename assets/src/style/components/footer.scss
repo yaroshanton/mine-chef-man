@@ -7,6 +7,13 @@
   line-height: 35px;
   padding: 40px 0 35px;
   margin: 0 auto;
+
+  @media (min-width: 1200px) {
+   width: 590px;
+   font-size: 35px;
+   line-height: 45px;
+   padding: 60px 0 50px;
+  }
  }
 
  form {
@@ -15,12 +22,22 @@
   flex-direction: column;
   margin: 0 auto;
 
+  @media (min-width: 1200px) {
+   width: 540px;
+  }
+
   label {
    padding-left: 5px;
    font-size: 16px;
    line-height: 16px;
    text-transform: uppercase;
    margin-bottom: 10px;
+
+   @media (min-width: 1200px) {
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 20px;
+   }
   }
 
   input {
@@ -31,6 +48,11 @@
    border: none;
    font-weight: 300;
    color: #446a82;
+
+   @media (min-width: 1200px) {
+    margin-bottom: 40px;
+    font-size: 20px;
+   }
   }
 
   textarea {
@@ -41,12 +63,29 @@
    border-radius: 5px;
    color: #446a82;
    margin-bottom: 20px;
+
+   @media (min-width: 1200px) {
+    font-size: 20px;
+    margin-bottom: 37px;
+   }
+  }
+  @media (min-width: 1200px) {
+   .form__checkcox-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+   }
   }
 
   .form__checkbox {
    display: flex;
    align-items: center;
    margin-bottom: 25px;
+
+   @media (min-width: 1200px) {
+    margin-bottom: unset;
+   }
   }
 
   .checkbox {
@@ -103,6 +142,10 @@
    display: flex;
    margin: 0 auto;
    margin-bottom: 40px;
+
+   @media (min-width: 1200px) {
+    margin: unset;
+   }
   }
  }
 
@@ -111,5 +154,32 @@
   font-size: 16px;
   padding-bottom: 40px;
   line-height: 25px;
+
+  @media (min-width: 1200px) {
+   padding-bottom: unset;
+  }
+ }
+}
+
+@media (min-width: 1200px) {
+ .footer-discription {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+
+  img {
+   margin-right: 30px;
+  }
+ }
+}
+
+.footer-logo {
+ display: none;
+
+ @media (min-width: 1200px) {
+  display: block;
+  margin: unset;
+  width: 56px;
  }
 }
